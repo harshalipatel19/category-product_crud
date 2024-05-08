@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyparser = require('body-parser');
-const port = 4000;
+const port = process.env.PORT;
 const path = require('path')
 
 //convert data in json form
